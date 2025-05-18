@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BLE GPS Services</string>
+    <string name="permission_denied_title">Permissions Required</string>
+    <string name="permission_denied_message">This app requires location and Bluetooth permissions to
+        function. Please grant the requested permissions in the app settings.
+    </string>
+    <string name="settings_button">Settings</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="stop_service_button_text">Stop</string>
+
+    <string name="broadcast_channel_name">GPS Broadcast Service</string>
+            <string name="broadcast_channel_description">Notifications for GPS broadcasting
+                service
+            </string>
+            <string name="receiver_channel_name">GPS Receiver Service</string>
+            <string name="receiver_channel_description">Notifications for GPS receiving service
+            </string>
+
+            <string name="broadcast_notification_title">BLE GPS Broadcaster</string>
+            <string name="broadcast_notification_text_initial">Broadcasting GPS location via BLE…
+            </string>
+            <string name="broadcast_notification_text_updated">Broadcasting: Lat %.4f, Lng %.4f
+            </string>
+
+            <string name="receiver_notification_title">BLE GPS Receiver</string>
+            <string name="receiver_notification_text_initial">Receiving GPS location via BLE…
+            </string>
+            <string name="receiver_notification_text_updated">Received: Lat %.4f, Lng %.4f</string>
+</resources>
